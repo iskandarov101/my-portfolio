@@ -28,53 +28,53 @@
 <!--LOADER END-->
 
 <!--NAVBAR-->
-<nav id="nav" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">Logo</a>
-      
-        <!-- Toggler/collapsibe Button -->
-        <button onclick="navBack()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-          </ul>
-        </div>
-</nav>
+  <nav id="nav" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#">Logo</a>
+        
+          <!-- Toggler/collapsibe Button -->
+          <button onclick="navBack()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+            </ul>
+          </div>
+  </nav>
 <!--NAVBAR END-->
 
 <!--HOME SECTION-->
-<section class="home">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="titles">
-                    <h2>Hello, I'm Iskandarov Buriboy</h2>
-                    <p>25 y.o Frontend Developer, From Samarkhand region. Welcome to my personal website</p>
+  <section class="home">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="titles">
+                      <h2>Hello, I'm Iskandarov Buriboy</h2>
+                      <p>25 y.o Frontend Developer, From Samarkhand region. Welcome to my personal website</p>
 
-                    <div class="button">
-                        <a href="#portfolio">View my work!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+                      <div class="button">
+                          <a href="#portfolio">View my work!</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 <!--HOME SECTION END-->
 
 <!--SERVICES SECTION-->
-<section id="services" class="services">
+  <section id="services" class="services">
   <div class="container">
     <h4 class="text-left services__title">About</h4>
     <div class="row mt-5 services__icon">
@@ -146,11 +146,12 @@
       <div class="col-md-2 services-skill"><i class="fab fa-sass" ></i></div>
     </div>
   </div>
-</section>
+  </section>
 <!--SERVICES SECTION END-->
 
 <!--PORTFOLIO SECTION-->
 <!-- <section id="portfolio" class="portfolio">
+
   <div class="container">
     <h3 class="text-center">My Projects</h3>
     <p class="text-center font-weight-bold">here you can see</p>
@@ -226,128 +227,127 @@
     </div>
   </div>
 </section> -->
-<div class="projects" id="projects">
-  <h1 class="projects__title">My Projects</h1>
-  <div class="projects__btn-group">
-    <button class="projects__btn projects__all-btn">All</button>
-    <button class="projects__btn projects__react-btn">React</button>
-    <button class="projects__btn projects__js-btn">HTML, Css, Js</button>
-  </div>
-  <form class="projects__form" action="https://echo.htmlacademy.ru" method="POST" autocomplete="off">
-    <input class="projects__input" type="text" name="lang" placeholder="html, css, js, react..." required>
-    <button class="projects__search-btn">
-      <img src="./images/search.svg" width="27" height="27" alt="">
-    </button>
-  </form>
-  <ul class="projects__list"></ul>
-</div>
+  <section id='portfolio' class="portfolio">
+    <div class="projects" id="projects">
+      <h1 class="projects__title">My Projects</h1>
+      <div class="projects__btn-group">
+        <button class="projects__btn projects__all-btn">All</button>
+        <button class="projects__btn projects__react-btn">React</button>
+        <button class="projects__btn projects__js-btn">HTML, Css, Js</button>
+      </div>
+      <form class="projects__form" action="https://echo.htmlacademy.ru" method="POST" autocomplete="off">
+        <input class="projects__input" type="text" name="lang" placeholder="html, css, js, react..." required>
+        <button class="projects__search-btn">
+          <img src="./images/search.svg" width="27" height="27" alt="">
+        </button>
+      </form>
+      <ul class="projects__list"></ul>
+    </div>
+  </section>  
+  
   <!-- TEMPLATE -->
-<template class="projects-item-template">
-  <li class="projects__item">
-    <img src="/images/stroy-control.png" alt="project" class="projects__img">
-    <div class="projects__item-center">
-      <p class="projects__langs"></p>
-      <p class="projects__item-title">Строй Контроль</p>
-    </div>
-    <div class="projects__item-bottom">
-      <a class="projects__link projects__netlify" href="https://stroy-kontrol-sanjar.netlify.app" target="_blank">View site</a>
-      <a class="projects__link projects__git" href="https://github.com/sanjar1311/stroy-kontrol" target="_blank">Github</a>
-    </div>
-  </li>
-</template> 
+  <template class="projects-item-template">
+    <li class="projects__item">
+      <img src="/images/stroy-control.png" alt="project" class="projects__img">
+      <div class="projects__item-center">
+        <p class="projects__langs"></p>
+        <p class="projects__item-title">Строй Контроль</p>
+      </div>
+      <div class="projects__item-bottom">
+        <a class="projects__link projects__netlify" href="https://stroy-kontrol-sanjar.netlify.app" target="_blank">View site</a>
+        <a class="projects__link projects__git" href="https://github.com/sanjar1311/stroy-kontrol" target="_blank">Github</a>
+      </div>
+    </li>
+  </template> 
 
 <!--PORTFOLIO SECTION END-->
 
 <!--ABOUT SECTION-->
-<section id="about" class="about">
-  <div class="container">
-    <h3 class="text-center">About</h3>
-    <p class="text-center"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, asperiores!</i></p>
-    <div class="row">
+  <section id="about" class="about">
+    <div class="container">
+      <h3 class="text-center">About</h3>
+      <div class="row">
 
-      <div class="col-md-4" data-aos="fade-right" data-aos-duration="950">
-        <img class="w-100" src="images/photo_2021-08-06_19-55-58.jpg" alt="my picture">
-      </div>
-      <div class="col-md-4">
-        <div class="info">
-          <h4>Iskandarov Buriboy</h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-             Repellendus tenetur neque enim voluptates voluptatum
-              fugit molestias quasi quia,
-               magnam quidem.
-          </p>
-          <ul class="main">
-            <li>
-              <span class="firstSpan">
-                <i class="fas fa-user"></i>
-                Name:
-              </span>
-              <span class="secondSpan">
-                Iskandarov Buriboy
-              </span>
-            </li>
-            <li>
-              <span class="firstSpan">
-                <i class="fas fa-calendar-alt"></i>
-                Birthday:
-              </span>
-              <span class="secondSpan">
-                9 September 1995
-              </span>
-            </li>
-            <li>
-              <span class="firstSpan">
-                <i class="fas fa-map-marker-alt"></i>
-                Address:
-              </span>
-              <span class="secondSpan">
-                Tashkent, Uzbekistan
-              </span>
-            </li>
-          </ul>
+        <div class="col-md-4" data-aos="fade-right" data-aos-duration="950">
+          <img class="w-100" src="images/photo_2021-08-06_19-55-58.jpg" alt="my picture">
         </div>
-      </div>
+        <div class="col-md-4">
+          <div class="info">
+            <h4>Iskandarov Buriboy</h4>
+            <p>
+              My name is Iskandarov Buriboy. I was born on September 9, 1995, in the Bulungur district of the Samarkhand region. My interest in programmang, I started organizing in 2020 year summer with Najot-ta'lim At Najot-ta'lim academy, I increased my knowledge and skills in programming and gained experience. And I finished in 2021 the spring I'm currently trying to do several projects for improving my skills. 
+            </p>
+            <ul class="main">
+              <li>
+                <span class="firstSpan">
+                  <i class="fas fa-user"></i>
+                  Name:
+                </span>
+                <span class="secondSpan">
+                  Iskandarov Buriboy
+                </span>
+              </li>
+              <li>
+                <span class="firstSpan">
+                  <i class="fas fa-calendar-alt"></i>
+                  Birthday:
+                </span>
+                <span class="secondSpan">
+                  9 September 1995
+                </span>
+              </li>
+              <li>
+                <span class="firstSpan">
+                  <i class="fas fa-map-marker-alt"></i>
+                  Address:
+                </span>
+                <span class="secondSpan">
+                  Tashkent, Uzbekistan
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
 
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 <!--ABOUT SECTION END-->
 
 <!--FOOTER-->
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="copyright">
-            <p>
-            Website made by Iskandarov Buriboy <script>document.write(new Date().getFullYear());</script>
-            </p>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="copyright">
+              <p>
+              Website made by Iskandarov Buriboy <script>document.write(new Date().getFullYear());</script>
+              </p>
+          </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="social-networks">
-          <a href="#" class="networks">
-            <i class="fab fa-youtube"></i>
-          </a>
-          <a href="https://www.instagram.com/iskandarov__101/" target="_blank" class="networks">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="https://github.com/iskandarov101" target="_blank" class="networks">
-            <i class="fab fa-github"></i>
-          </a>
+        <div class="col-md-4">
+          <div class="social-networks">
+            <a href="#" class="networks">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/iskandarov__101/" target="_blank" class="networks">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/iskandarov101" target="_blank" class="networks">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <p class="smallInfo">Lorem ipsum dolor sit amet consectetur
-           adipisicing elit.
-           Error magni ea unde ipsum culpa ducimus 
-           autem reiciendis quas nostrum nulla.
-        </p>
+        <div class="col-md-4">
+          <p class="smallInfo">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.
+            Error magni ea unde ipsum culpa ducimus 
+            autem reiciendis quas nostrum nulla.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 <!--FOOTER END-->
 
 
