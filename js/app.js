@@ -11,7 +11,6 @@ const DATA = [
 		lang: ["React"],
 		title: "TMDB movies",      
 		netlify: "https://rmdbmoviesuz.netlify.app",
-		// git: "https://github.com/sanjar1311/tmdbmovies"
 		git: "https://github.com/iskandarov101/movies"
 	},
 	{
@@ -134,6 +133,3 @@ window.addEventListener("scroll", function() {
 function navBack(){
     var nav = document.getElementById('nav').classList.toggle("change");
 }
-
-
-
