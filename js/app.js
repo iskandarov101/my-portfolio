@@ -12,6 +12,7 @@ const DATA = [
 		title: "TMDB movies",      
 		netlify: "https://rmdbmoviesuz.netlify.app",
 		// git: "https://github.com/sanjar1311/tmdbmovies"
+		git: "https://github.com/iskandarov101/movies"
 	},
 	{
 		src: "./images/filter.png",
