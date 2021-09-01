@@ -10,8 +10,22 @@ const DATA = [
     src: "./images/tmdb.png",
 		lang: ["React"],
 		title: "TMDB movies",      
-		netlify: "https://rmdbmoviesuz.netlify.app",
+		netlify: "https://ymdbmovies.netlify.app",
 		git: "https://github.com/iskandarov101/movies"
+	},
+	{
+		src: './images/foods-post.png',
+		lang: ['React'],
+		title: "Foods-post",
+		netlify: 'https://foods-post.netlify.app',
+		git: 'https://github.com/iskandarov101/food-post2'
+	},
+	{
+		src: './images/todo-list.png',
+		lang: ['React'],
+		title: 'Todo-list',
+		netlify: 'https://todo-listmen.netlify.app',
+		git: 'https://github.com/iskandarov101/to-do-list'
 	},
 	{
 		src: "./images/filter.png",
