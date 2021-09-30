@@ -32,7 +32,7 @@ const DATA = [
 		lang: ["HTML", "Scss", "Js"],
 		title: "Grandma",
 		netlify: "https://filter-granma.netlify.app",
-		git: "https://github.com/sanjar1311/p-8--filter-project"
+		git: "///"
 	},
 	{
 		src: "./images/myteab.png",
